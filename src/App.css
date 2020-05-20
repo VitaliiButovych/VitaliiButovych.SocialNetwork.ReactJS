@@ -18,3 +18,12 @@ body {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
+.app-wrapper-content {
+  grid-area: c;
+  background-color: gray;
+  margin: 0px 10px 10px 0px;
+}
+.app-wrapper-content img {
+  width: 100%;
+  border-radius: 0px;
+}
