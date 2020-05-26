@@ -2,17 +2,13 @@ import React from "react";
 import style from "./Profile.module.css";
 import success from "../../success.png";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div>
-      <div>
-        <img src={success} alt={success} />
-      </div>
-      <div>ava + desc</div>
-
+      <ProfileInfo />
       <MyPosts />
-
     </div>
   );
 };
